@@ -4,8 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsletter Popup</title>
+  <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 </head>
-<body>
-  div
+<body style="background-image: url('./Assets/Background.png'); font-size: 13px; ">
+  <div class="grid-centering-container" style="width: 100vw; height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <div class="newsletter-container-grid" style="display: grid; grid-template-columns: 1fr; background-color: white; max-width: 300px; border-radius: 10px;">
+      <div class="heading-container" style="background-color: rgb(55, 55, 255); padding: 40px 55px; background-image: url('./Assets/Pattern.png'); background-repeat: no-repeat; border-radius: 10px 10px 0 0;">
+        <h1 class="heading" style="text-align: center; font-size: 20px; color: white;">Creating email templates has never been easier.</h1> 
+      </div>
+      <div style="padding: 15px; background-color: white; border-radius: 0 0 10px 10px;">
+        <div>
+          <p style="text-align: center; margin-bottom: 15px;">Recieve daily emails on how to best create email templates, completely free.</p>
+          <div style="display: flex; flex-direction: row; column-gap: 10px;">
+            <input class="email-bar" type="email" placeholder="Email Address" style="padding: 10px;border-radius: 5px; border: none; flex: 2;">
+            <button class="subscribe-button" style="padding: 12px 10px; border: none; flex: 1; color: white; background-color: rgb(55, 55, 255); border-radius: 5px;">Subscribe</button>
+          </div>
+          <p class="no-spam" style="margin-top: 10px;">No spam, ever. Unsubscribe anytime.</p>
+        </div>
+        <div style="margin-top: 20px; margin-bottom: 10px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+          <div style="display: flex; flex-direction: row; align-items: center; column-gap: 10px;">
+            <div>
+              <img src="./Assets/User Avatar.svg" alt="" style="width: 35px; height: 35px; border-radius: 50%;">
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <p class="name">Andrew Vickins</p>
+              <p class="designation">Newsletter Designer</p>
+            </div>
+          </div>
+        </div>
+        <p class="last-paragraph-review" style="text-align: center;">"By far one of the best newsletter I've ever subscribed to. It is sent biweekly and I'm always looking forward to their emails."</p>
+      </div>
+      
+    </div>
+  </div>
 </body>
 </html>
